@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="49754" started-at="2022-01-19T12:06:03 IST" finished-at="2022-01-19T12:06:53 IST">
+    <groups>
+      <group name="Regression">
+        <method signature="MakeMyTripTest.Cabs()[pri:3, instance:TestScript.MakeMyTripTest@df27fae]" name="Cabs" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.Cabs1()[pri:4, instance:TestScript.MakeMyTripTest@df27fae]" name="Cabs1" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.GiftCards()[pri:7, instance:TestScript.MakeMyTripTest@df27fae]" name="GiftCards" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.GiftCards1()[pri:8, instance:TestScript.MakeMyTripTest@df27fae]" name="GiftCards1" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.Hotels()[pri:11, instance:TestScript.MakeMyTripTest@df27fae]" name="Hotels" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.Hotels1()[pri:12, instance:TestScript.MakeMyTripTest@df27fae]" name="Hotels1" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.LaunchApp()[pri:2, instance:TestScript.MakeMyTripTest@df27fae]" name="LaunchApp" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.Screenshot()[pri:9, instance:TestScript.MakeMyTripTest@df27fae]" name="Screenshot" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.cabType()[pri:6, instance:TestScript.MakeMyTripTest@df27fae]" name="cabType" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.extentReportFile()[pri:1, instance:TestScript.MakeMyTripTest@df27fae]" name="extentReportFile" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.navigation()[pri:10, instance:TestScript.MakeMyTripTest@df27fae]" name="navigation" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.search()[pri:5, instance:TestScript.MakeMyTripTest@df27fae]" name="search" class="TestScript.MakeMyTripTest"/>
+      </group> <!-- Regression -->
+      <group name="smoke">
+        <method signature="MakeMyTripTest.Cabs()[pri:3, instance:TestScript.MakeMyTripTest@df27fae]" name="Cabs" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.GiftCards()[pri:7, instance:TestScript.MakeMyTripTest@df27fae]" name="GiftCards" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.Hotels()[pri:11, instance:TestScript.MakeMyTripTest@df27fae]" name="Hotels" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.LaunchApp()[pri:2, instance:TestScript.MakeMyTripTest@df27fae]" name="LaunchApp" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.extentReportFile()[pri:1, instance:TestScript.MakeMyTripTest@df27fae]" name="extentReportFile" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.navigation()[pri:10, instance:TestScript.MakeMyTripTest@df27fae]" name="navigation" class="TestScript.MakeMyTripTest"/>
+        <method signature="MakeMyTripTest.search()[pri:5, instance:TestScript.MakeMyTripTest@df27fae]" name="search" class="TestScript.MakeMyTripTest"/>
+      </group> <!-- smoke -->
+    </groups>
+    <test name="Default test" duration-ms="49754" started-at="2022-01-19T12:06:03 IST" finished-at="2022-01-19T12:06:53 IST">
+      <class name="TestScript.MakeMyTripTest">
+        <test-method status="PASS" signature="BrowserCall()[pri:0, instance:TestScript.MakeMyTripTest@df27fae]" name="BrowserCall" is-config="true" duration-ms="5749" started-at="2022-01-19T12:05:58 IST" finished-at="2022-01-19T12:06:03 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BrowserCall -->
+        <test-method status="PASS" signature="extentReportFile()[pri:1, instance:TestScript.MakeMyTripTest@df27fae]" name="extentReportFile" duration-ms="287" started-at="2022-01-19T12:06:03 IST" finished-at="2022-01-19T12:06:04 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- extentReportFile -->
+        <test-method status="PASS" signature="LaunchApp()[pri:2, instance:TestScript.MakeMyTripTest@df27fae]" name="LaunchApp" duration-ms="9007" started-at="2022-01-19T12:06:04 IST" finished-at="2022-01-19T12:06:13 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchApp -->
+        <test-method status="PASS" signature="Cabs()[pri:3, instance:TestScript.MakeMyTripTest@df27fae]" name="Cabs" duration-ms="5522" started-at="2022-01-19T12:06:13 IST" finished-at="2022-01-19T12:06:18 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cabs -->
+        <test-method status="PASS" signature="Cabs1()[pri:4, instance:TestScript.MakeMyTripTest@df27fae]" name="Cabs1" duration-ms="11322" started-at="2022-01-19T12:06:18 IST" finished-at="2022-01-19T12:06:29 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Cabs1 -->
+        <test-method status="PASS" signature="search()[pri:5, instance:TestScript.MakeMyTripTest@df27fae]" name="search" duration-ms="2342" started-at="2022-01-19T12:06:29 IST" finished-at="2022-01-19T12:06:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- search -->
+        <test-method status="PASS" signature="cabType()[pri:6, instance:TestScript.MakeMyTripTest@df27fae]" name="cabType" duration-ms="5215" started-at="2022-01-19T12:06:32 IST" finished-at="2022-01-19T12:06:37 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cabType -->
+        <test-method status="PASS" signature="GiftCards()[pri:7, instance:TestScript.MakeMyTripTest@df27fae]" name="GiftCards" duration-ms="2209" started-at="2022-01-19T12:06:37 IST" finished-at="2022-01-19T12:06:39 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCards -->
+        <test-method status="PASS" signature="GiftCards1()[pri:8, instance:TestScript.MakeMyTripTest@df27fae]" name="GiftCards1" duration-ms="6133" started-at="2022-01-19T12:06:39 IST" finished-at="2022-01-19T12:06:45 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GiftCards1 -->
+        <test-method status="PASS" signature="Screenshot()[pri:9, instance:TestScript.MakeMyTripTest@df27fae]" name="Screenshot" duration-ms="2356" started-at="2022-01-19T12:06:45 IST" finished-at="2022-01-19T12:06:48 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Screenshot -->
+        <test-method status="PASS" signature="navigation()[pri:10, instance:TestScript.MakeMyTripTest@df27fae]" name="navigation" duration-ms="4361" started-at="2022-01-19T12:06:48 IST" finished-at="2022-01-19T12:06:52 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigation -->
+        <test-method status="PASS" signature="Hotels()[pri:11, instance:TestScript.MakeMyTripTest@df27fae]" name="Hotels" duration-ms="448" started-at="2022-01-19T12:06:52 IST" finished-at="2022-01-19T12:06:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hotels -->
+        <test-method status="PASS" signature="Hotels1()[pri:12, instance:TestScript.MakeMyTripTest@df27fae]" name="Hotels1" duration-ms="476" started-at="2022-01-19T12:06:53 IST" finished-at="2022-01-19T12:06:53 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Hotels1 -->
+        <test-method status="PASS" signature="CloseBrowser()[pri:0, instance:TestScript.MakeMyTripTest@df27fae]" name="CloseBrowser" is-config="true" duration-ms="1619" started-at="2022-01-19T12:06:53 IST" finished-at="2022-01-19T12:06:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseBrowser -->
+      </class> <!-- TestScript.MakeMyTripTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

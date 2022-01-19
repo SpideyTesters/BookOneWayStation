@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [MakeMyTrip]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="Regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestScript.MakeMyTripTest">
+        <methods>
+          <include name="LaunchApp"/>
+          <include name="Alert"/>
+          <include name="cabType"/>
+          <include name="GiftCards"/>
+          <include name="GiftCards1"/>
+          <include name="Cabs"/>
+          <include name="Hotels"/>
+          <include name="Hotels1"/>
+          <include name="navigation"/>
+          <include name="search"/>
+          <include name="Cabs1"/>
+        </methods>
+      </class> <!-- TestScript.MakeMyTripTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [MakeMyTrip] -->
